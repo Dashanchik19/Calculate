@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #343334;
+}
+.section {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* margin: 40px 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em; */
+}
+.bground {
+  background-color: #000;
+  height: 470px;
+  width: 260px;
+  border-radius: 20px;
+}
+
+.elements {
+  font-size: 17px;
+  line-height: 50px;
+  color: white;
+  padding-top: 100px;
+  cursor: pointer;
+}
+.elements a {
+  text-decoration: none;
+}
+
+.cals-screen {
+  color: white;
+}
+
+.cals-screen p {
+  color: white;
+}
+
+/*-------------------------------------*/
+.element-ac {
+  background-color: #a7a6a8;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-plusMin {
+  background-color: #a7a6a8;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-percent {
+  background-color: #a7a6a8;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-division {
+  background-color: #ff9300;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.element-7 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-8 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-9 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-x {
+  background-color: #ff9300;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.element-4 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-5 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-6 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-subtract {
+  background-color: #ff9300;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.element-1 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-2 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-3 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-plus {
+  background-color: #ff9300;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.element-0 {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-point {
+  background-color: #343334;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.element-equals {
+  background-color: #ff9300;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*---------Вирівнювання--------*/
+.elements {
+  display: grid;
+  grid-template-areas:
+    "element-ac element-plusMin element-percent element-division"
+    "element-7  element-8 element-9 element-x"
+    "element-4  element-5 element-6 element-subtract"
+    "element-1  element-2 element- element-plus"
+    "element-0 element-0 element-point element-equals";
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 10px 0 10px;
+  grid-gap: 7px;
+  justify-items: center;
+}
+.elements .element-0 {
+  grid-area: element-0;
+  width: 100%;
+  background-repeat: 34px;
+}
+
+.cals-screen {
+  height: 125px;
+  font-size: 50px;
+  height: 50px;
+  padding: 10px;
+  display: grid;
+  justify-items: end;
+  align-items: end;
+}
+
+.cals-screen p {
+  margin-top: 60px;
+  text-align: right;
+  padding: 10px;
+}
